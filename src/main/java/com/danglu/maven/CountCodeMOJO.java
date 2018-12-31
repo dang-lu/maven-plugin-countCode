@@ -17,7 +17,7 @@ import java.util.List;
  * @Version: v1.0
  **/
 
-@Mojo(name="countCode", defaultPhase = LifecyclePhase.PACKAGE)
+@Mojo(name="count-code", defaultPhase = LifecyclePhase.PACKAGE)
 public class CountCodeMOJO extends AbstractMojo {
 
     @Parameter
